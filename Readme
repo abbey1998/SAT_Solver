@@ -1,0 +1,19 @@
+This is a basic SAT Solver that used Unit Clauses and Pure Literals to reduce the search space.
+
+The Input is of the following format
+First line contains name of the literals seperated by "," (commas)
+Second line contains the number of clauses
+Then we have all the clauses in individual lines
+
+example input:
+x1,x2,x3,x4,x5,x6
+7
+x1'
+x3
+x2+x4'+x6'
+x2+x6+x5
+x2+x5
+x5'+x6'+x4
+x5+x4+x6
+
+Note: x' means x_bar or ~x
